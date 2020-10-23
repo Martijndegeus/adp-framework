@@ -12,6 +12,7 @@ class Core
 {
     public static function run()
     {
+        
         $dotEnv = Dotenv::createImmutable(__DIR__ . '/../..');
         $dotEnv->load();
         $app = new FrontendLoader();

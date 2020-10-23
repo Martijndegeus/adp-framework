@@ -1,3 +1,4 @@
+.gitmodules
 vendor
 composer.json
 laradock
