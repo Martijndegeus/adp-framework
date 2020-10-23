@@ -1,0 +1,16 @@
+{
+  "name": "martijndeg/adp-framework",
+  "description": "Basic PHP framework for ADP projects",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Martijn",
+      "email": "martijnjgeus@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.2",
+    "mongodb/mongodb": "^1.7"
+  }
+}
