@@ -3,6 +3,7 @@
     <title><?= $application->getApplicationName() ?></title>
     <link href="<?= $application->getFontUrl() ?>" rel="stylesheet">
     <link href="<?= $application->getStyleUrl() ?>" rel="stylesheet">
+    <link href="/css/bulma-dark.min.css" rel="stylesheet">
     <style>
         body {
             font-family: '<?= $application->getFontName() ?>', cursive;

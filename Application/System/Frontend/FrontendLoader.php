@@ -18,6 +18,9 @@ class FrontendLoader
     protected $fontName;
     protected $jsUrl;
     
+    /**
+     * FrontendLoader constructor.
+     */
     public function __construct()
     {
         $this->applicationName = $_ENV['TITLE'];
@@ -40,6 +43,9 @@ class FrontendLoader
         return $this;
     }
     
+    /**
+     * @return string|null
+     */
     public function getApplicationName(): ?string
     {
         try {

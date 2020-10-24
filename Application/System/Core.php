@@ -26,6 +26,6 @@ class Core
         $app = new FrontendLoader();
         ViewBuilder::start($app);
         
-        DB::insert();
+//        DB::insert();
     }
 }
